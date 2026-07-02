@@ -5,68 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="header">
-      <div class="header-left">Header Logo</div>
-      <div class="header-right">
-        <ul>
-          <li>header link one</li>
-          <li>header link two</li>
-          <li>header link three</li>
-        </ul>
+    <div class="hero">
+      <div class="hero-left">
+        <div class="logo">Header Logo</div>
+        <div class="hero-text">
+          <h1>This Website is awsome</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button class="signup">Sign Up</button>
+        </div>
       </div>
-    </div>
-    <div class="content">
-      <div class="awesome">
-        <h1>This Website is awsome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
-        </p>
-        <button class="signup">Sign Up</button>
+      <div class="hero-right">
+        <div class="links">
+          <ul>
+            <li>header link one</li>
+            <li>header link two</li>
+            <li>header link three</li>
+          </ul>
+        </div>
         <img
-          class="awsome-image"
+          class="hero-image"
           src="./images/Profile.jpg"
           alt="Profile picture"
         />
       </div>
+    </div>
+    <div class="content">
       <div class="information">
-        <h1>Some random information</h1>
-        <div class="information-card">
-          <img src="./images/Archway.jpg" alt="Picture of an Archway" />
-          <p>this is some subtext under an illustration of an image</p>
-        </div>
-        <div class="information-card">
-          <img src="./images/Castle.jpg" alt="Picture of an Arabic Castle" />
-          <p>this is some subtext under an illustration of an image</p>
-        </div>
-        <div class="information-card">
-          <img src="./images/Door.jpg" alt="Picture of a Door" />
-          <p>this is some subtext under an illustration of an image</p>
-        </div>
-        <div class="information-card">
-          <img
-            src="./images/Courtyard.jpg"
-            alt="Picture taken inside a small courtyard looking up at the sky"
-          />
-          <p>this is some subtext under an illustration of an image</p>
+        <h1>Some random information.</h1>
+        <div class="information-cards">
+          <div class="information-card">
+            <img src="./images/Archway.jpg" alt="Picture of an Archway" />
+            <p>this is some subtext under an illustration of an image</p>
+          </div>
+          <div class="information-card">
+            <img src="./images/Castle.jpg" alt="Picture of an Arabic Castle" />
+            <p>this is some subtext under an illustration of an image</p>
+          </div>
+          <div class="information-card">
+            <img src="./images/Door.jpg" alt="Picture of a Door" />
+            <p>this is some subtext under an illustration of an image</p>
+          </div>
+          <div class="information-card">
+            <img
+              src="./images/Courtyard.jpg"
+              alt="Picture taken inside a small courtyard looking up at the sky"
+            />
+            <p>this is some subtext under an illustration of an image</p>
+          </div>
         </div>
       </div>
       <div class="quote">
-        <p>
+        <p class="quote-paragraph">
           This is an inspiring quote, or just a testimonial from a customer.
           Maybe it's just filling up space, or maybe people will actually read
           it. Who knows? All i know is that it looks nice.
         </p>
-        <p>-Thor, God of Thunder</p>
+        <p class="quote-author">-Thor, God of Thunder</p>
       </div>
       <div class="action">
         <div class="action-square">
-          <h1>Call to action! It's time!</h1>
-          <p>
-            Sign up for our product by clicking that button right over there!
-          </p>
+          <div class="action-text">
+            <h1>Call to action! It's time!</h1>
+            <p>
+              Sign up for our product by clicking that button right over there!
+            </p>
+          </div>
           <button>Sign up</button>
         </div>
       </div>
